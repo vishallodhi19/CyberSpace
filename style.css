@@ -1,0 +1,23 @@
+body{
+    margin:0;
+}
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#canvas{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: 1;
+}
+#tower{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: none;
+    z-index: 2;
+    pointer-events: none;
+}
