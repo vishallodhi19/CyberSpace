@@ -7,7 +7,33 @@
     <body>
         <canvas id="canvas">
         </canvas>
+        <canvas id="buildingcanvas"></canvas>
         <canvas id="tower"></canvas>
+        <canvas id="player"></canvas>
+        <canvas id="keycanvas"></canvas>
+        <div class="selectmode">
+            <button id="pause">
+                PAUSE
+            </button>
+            <button id="restart">
+                RESTART
+            </button>
+        </div>
+        <div class="information">
+            Player Health : <span id="plhealth">  100 </span>
+            <br>
+            System Health : <span id="syshealth"> 1000</span>
+            <br>
+            Delivered Shards: <span id="delshards">0</span>
+            <br>
+            High Score: <span id="highscore">0</span>
+            <br>
+            Keys : <span id="keys"> 0</span>
+            <br>
+            Decrypted Shards : <span id="decshards">  0 </span>
+            <br>
+            Encrypted Shards: <span id="encshards">10</span>
+        </div>
         <script src="script.js" ></script>
     </body>
 </html>
